@@ -15,32 +15,9 @@ Self-corrective Agentic RAG system built with LangGraph, LangChain, ChromaDB, Ge
 
 ## Architecture
 
-User Query
-↓
-Query Rewriter
-↓
-Retriever
-↓
-Relevance Grader
-↓
-Relevant? ── No ──> Rewrite Again
-↓ Yes
-Answer Generator
-
-This creates a self-corrective retrieval loop instead of a traditional single-pass RAG pipeline.
-
-## Graph
-
 ![alt text](image.png)
 
-## Project Structure
-
-src/
-├── agents/
-├── config/
-├── graph/
-├── services/
-└── index.ts
+This creates a self-corrective retrieval loop instead of a traditional single-pass RAG pipeline.
 
 ## Environment Variables
 

@@ -15,7 +15,7 @@ Self-corrective Agentic RAG system built with LangGraph, LangChain, ChromaDB, Ge
 
 ## Architecture
 
-![alt text](image.png)
+![Graph](./assets/images/graph.png)
 
 This creates a self-corrective retrieval loop instead of a traditional single-pass RAG pipeline.
 

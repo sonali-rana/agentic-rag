@@ -1,8 +1,10 @@
 node_modules
 .env
-assets
+
 assets/pdfs/*
 !assets/pdfs/.gitkeep
 
-# LangGraph API
 .langgraph_api
+.logs
+*.tsbuildinfo
+.DS_Store

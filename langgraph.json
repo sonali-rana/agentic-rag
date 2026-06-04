@@ -1,0 +1,7 @@
+{
+	"dependencies": ["."],
+	"graphs": {
+		"agentic-rag": "./src/index.ts:graph"
+	},
+	"env": ".env"
+}
